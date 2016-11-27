@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Demo: A Fullscreen Slideshow using Skrollr.js</title>
+    <meta name="description" content="Learn how to create a fullscreen slideshow for your scrolling website.">
+    
+    <link rel="author" href="https://plus.google.com/u/0/109859280204979591787/about"/>
+
+    <!--Mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="javascript/modernizr-2.6.2.min.js"></script>
+
+</head>
+<body>
+		
+	<div id="page-content">
+        
+        <div id="slides-container">
+            <div id="slides" data-0="transform: translate(0%, 0%)" data-100p="transform: translate(0%, -50%)" data-150p="" data-200p="transform: translate(-50%, -50%)" data-250p="" data-300p="transform: translate(-50%, 0%)">
+                <div id="slide-1" class="slide">
+                    <div class="caption">
+                        <h1>Forest</h1>
+                        <p>Calm and beautiful forest</p>
+                    </div>
+                </div>
+                <div id="slide-2" class="slide">
+                    <div class="caption">
+                        <h1>Coast</h1>
+                        <p>Calm and beautiful forest</p>
+                    </div>
+                </div>
+                <div id="slide-3" class="slide">
+                    <div class="caption">
+                        <h1>City</h1>
+                        <p>Calm and beautiful forest</p>
+                    </div>
+                </div>
+                <div id="slide-4" class="slide">
+                    <div class="caption">
+                        <h1>Lake</h1>
+                        <p>Calm and beautiful forest</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+	</div>
+
+    <div id="helper">
+        <div class="marker red"></div>
+        <div class="marker green"></div>
+        <div class="marker blue"></div>
+        <div class="marker yellow"></div>
+    </div>
+
+    <script type="text/javascript" src="javascript/skrollr.min.js"></script>
+    <script type="text/javascript">
+        var s = skrollr.init();
+    </script>
+
+</body>
+</html>
